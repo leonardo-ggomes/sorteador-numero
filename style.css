@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&family=Roboto:wght@100;300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-content: start;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin-top: 20%;
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+
+#ajustes{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#numeros{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+input[type=number]{
+    text-align: center;
+    color: #dfb841;
+    font-size: 28px;
+    padding: 5px;
+}
+
+button{
+    text-align: center;
+    background-color: #dfb841;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.numero{
+    margin: 5px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbe732;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
